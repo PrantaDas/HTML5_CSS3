@@ -156,4 +156,14 @@
     margin-top: 40px;
     margin-left: 550px;
 }
+form{
+    height: 800px;
+    width:400px ;
+    border: 5px solid lightcoral;
+    padding: 20px 20px;
+    margin-top: 20px;
+    margin-left: 600px;
+    background-color: lightpink;
+    border-radius: 10px;
+}
 

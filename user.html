@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <h1>Provide necessary valid Information to create your account!</h1><br>
+        <label for="fname">First Name:</label><br>
+        <input id="fname" name="fname" type="text"><br>
+        <label for="lname">Last Name:</label><br>
+        <input id="lname" name="lname" type="text"><br>
+        <label for="padress">Permanent Adress:</label><br>
+        <input type="text" id="padress" name="padress"><br>
+        <label for="pre-address">Present Address</label><br>
+        <input type="text" name="pre-address" id="pre-address"><br>
+        <label for="nlity">Nationality</label><br>
+        <input id="nlity" name="nlity" type="text"><br>
+        <label for="dob">Date of Birth:</label><br>
+        <input id="dob" name="dob" type="date"><br>
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="gender">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="gender">Female</label>
+        <input type="radio" id="others" name="gender" value="Others">
+        <label for="gender">Others</label><br>
+        <label for="occu">Occupation:</label><br>
+        <input id="occu" name="occu" type="text"><br>
+        <label for="pnum">Phone No:</label><br>
+        <input id="pnum" name="pnum" type="tel" pattern="[0-9]{3}-[0-9]{8}" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="em" name="em" placeholder="abcd3212gmail.com" required><br>
+        <label for="pw">Create a Password:</label><br>
+        <input id="pword" name="pword" type="password" placeholder="abcd12@">
+        <p>*Note:The password length should be at least 12 conatining a lowercase,a uppercase,number and a special character.</p>
+        <label for="cpw">Confirm password:</label><br>
+        <input type="password" id="cpw" name="cpw"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
